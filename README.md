@@ -13,28 +13,6 @@ Replacement Suggestions (when shoes are nearing end-of-life)
 
 The project works entirely from CSV files and optionally supports PostgreSQL via schema.sql.
 
-Tech Stack
-
-Python 3
-
-Pandas, NumPy, scikit-learn
-
-Cosine Similarity (content & collaborative)
-
-PostgreSQL (optional, schema provided)
-
-Project Structure
-analogdots-shoe-recommendation/
-├── data/
-│ ├── sample_shoe_catalog.csv
-│ ├── sample_user_interactions.csv
-│ ├── sample_device_care_history.csv
-│ └── generate_synthetic.py
-├── recommendation_system/
-│ └── hybrid_recommender.py
-├── schema.sql
-└── README.md
-
 Why Hybrid Filtering?
 We considered three main approaches:
 
